@@ -10,5 +10,7 @@ int main() {
 	string str;
 	getline(cin, str);
 	cout << "Созданная строка: " << str << endl;
+
+	cout << "Вывод отдельных индексов: " << str[0] << " " << str[2] << " " << str[4] << endl;
 	return 0;
 }
